@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Developer Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+         }
+         
+         body{
+              background-color: rgb(0, 0, 33);
+              color: white;
+              font-family: "Poppins", sans-serif;
+
+            }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }    
+        nav ul{
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            /* margin: 0 23px; */
+            color: white;
+
+        }
+
+        nav ul li a:hover{
+            color: rgb(153, 153, 226);
+            font-size: 1.02rem;
+         }
+
+         main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+         }
+
+        .left{
+            font-size: 1.5rem;
+        }
+
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+
+        }
+
+        .firstSection > div{
+            width: 30%;
+
+        }
+
+        .leftSection{
+            font-size: 2rem;
+        }
+
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+
+        .rightSection img{
+            width: 80%;
+        }
+
+        .purple{
+            color: rgb(170, 170, 228);
+        }
+
+        .text-gray{
+            color: gray;
+        }
+
+        #element{
+            color: rgb(170, 170, 228);
+        }
+        
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+         
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box{
+            background: white;
+            width: 78vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+         
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px ;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top{
+            width: 30px;
+            position: relative;
+            top: -34px;
+            left: -16px;
+        }
+
+        .vertical-title{
+              position: relative;
+              top: 75px;
+              width: 150px;
+              font-size: 22px;
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 80px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+
+        }
+
+        footer{
+            background-color: rgb(30, 30, 72);
+            
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Shreyas Portfolio</div>
+            <div class="right">
+                <ul>
+                    
+                     <li> <a href="/"> Home </a> </li> 
+                     <li> <a href="/"> About </a> </li>  
+                     <li> <a href="https://github.com/Percyakr2161/Recipe-App"> Projects </a> </li> 
+                     <li> <a href="shreyashbabar09@gmail.com"> Contact Me </a> </li> 
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name Is <span class="purple"> Shreyas </span> 
+                  
+                <div>And I AM A Passionate</div>
+                
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" onclick="document.location='Shreyas Resume.pdf'">Download Resume 
+                    </button>
+
+                    <button class="btn" onclick="document.location='https://github.com/Percyakr2161'">Visit Github</button>
+                </div>
+            </div>
+            
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+
+        </section>
+        
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray"> What I Have Done So Far </span>
+            <h1> Skills </h1>
+             
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="HTMl Logo.com.png" alt="">
+                    
+                    <div class="vertical-title">
+                        HTML Developer 
+                    </div>
+                   
+                    <div class="vertical-desc">
+                        a professional web designer In HTML to create website layouts based on templates and wireframes.
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="Node js.com.png" alt="">
+                    
+                    <div class="vertical-title">
+                        Node.js Developer 
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        A full-stack software engineer with a strong focus on web development and deployment.
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    
+                    <div class="vertical-title">
+                        Web Developer 
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Specialize in front-end and back-end technologies.
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="Computer Network Logo.com.png" alt="">
+                    
+                    <div class="vertical-title">
+                        Computer Networking 
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Specialize In Networking And Communication.
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="Java logo.com.png" alt="">
+                    
+                    <div class="vertical-title">
+                        Java Developer 
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Specialize in front-end and back-end technologies.
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="Python logo.com.png" alt="">
+                    
+                    <div class="vertical-title">
+                        Python Developer 
+                    </div>
+                    
+                    <div class="vertical-desc">
+                        Specialize In Data Science.
+                    </div>
+                    
+                </div>
+
+                
+                
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Shreyas Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>  Home </li> 
+                    <li> <a href="/"> About Me </a> </li>  
+                    <li> <a href="/"> Support </a> </li> 
+                    <li> <a href="/"> Contact </a> </li> 
+               </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>  Social Share </li> 
+                    <li> <a href="https://www.instagram.com/shreyas_04.x/"> instagram </a> </li>  
+                    <li> <a href="https://www.linkedin.com/in/shreyashbabar/"> linkedin </a> </li> 
+                    <li> <a href="https://x.com/Percyakr2192128?t=NtuZkLP7MDj0qU3U6Mi9aw&s=09">Twitter </a> </li> 
+               </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>  Quick Link  </li> 
+                    <li> <a href="/"> Style Guide </a> </li>  
+                    <li> <a href="/"> Career </a> </li> 
+                    <li> <a href="/"> Help </a> </li> 
+               </ul>
+            </div>
+           
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; ShreyasPortfolio.com | All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer...', 'Software Engineer...', 'Web Designer...'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
